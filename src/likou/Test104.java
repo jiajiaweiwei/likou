@@ -34,7 +34,7 @@ public class Test104 {
                 0 : Math.max(this.maxDepth(root.left), this.maxDepth(root.right)) + 1;
     }*/
 
-    //方法二 使用队列 深度优先遍历
+    //方法二 使用队列 层次遍历
     public static int maxDepth1(TreeNode root) {
         //特殊情况处理
         if (root == null){
